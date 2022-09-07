@@ -32,7 +32,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<0 href hreflang name> <1> <2 cite> <3> <4> <5> <6> <7> <8> <9> <10 data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <11> <12> <13> <14> <15 id> <16 id> <17 id> <18 id> <19 id> <20> <21 src alt height width data-entity-type data-entity-uuid data-align data-caption> <22> <23 start type> <24> <25> <26> <27> <28> <29> <30> <31> <32> <33> <34> <35> <36> <37> <38> <39 type> <strong> <em> <a href> <ul> <li> <ol> <blockquote> <u> <s> <sup> <sub> <p> <h1> <h2> <h3> <h4> <h5> <h6> <pre> <address> <div> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr>'
+      allowed_html: '<a href hreflang> <b> <blockquote cite> <br> <caption> <cite> <code> <dd> <div> <dl> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <dt> <em> <figcaption> <figure> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <i> <img src alt height width data-entity-type data-entity-uuid data-align data-caption> <li> <ol start type> <p> <pre> <s> <span> <strong> <sub> <sup> <table> <tbody> <td> <tfoot> <th> <thead> <tr> <u> <ul type>'
       filter_html_help: false
       filter_html_nofollow: false
   filter_htmlcorrector:
