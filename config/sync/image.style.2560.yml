@@ -1,0 +1,15 @@
+uuid: 634de3c0-9f14-441e-a0c4-0a5b400822f2
+langcode: en
+status: true
+dependencies: {  }
+name: '2560'
+label: '2560'
+effects:
+  480d0b2d-f734-4cc5-963c-e16df85495e3:
+    uuid: 480d0b2d-f734-4cc5-963c-e16df85495e3
+    id: image_scale
+    weight: 1
+    data:
+      width: 2560
+      height: null
+      upscale: false

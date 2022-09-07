@@ -1,0 +1,16 @@
+uuid: d7e6a44b-d1af-423b-99ba-c5a032555f62
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+  module:
+    - filter
+id: administrator
+label: Administrator
+weight: 2
+is_admin: true
+permissions:
+  - 'use text format basic_html'
+  - 'use text format full_html'

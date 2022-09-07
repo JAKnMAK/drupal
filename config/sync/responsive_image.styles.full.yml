@@ -1,0 +1,43 @@
+uuid: bd020c4e-a4bd-4392-8f6c-f4358e9fc92d
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.1280
+    - image.style.1440
+    - image.style.1600
+    - image.style.1920
+    - image.style.2400
+    - image.style.2560
+    - image.style.2880
+    - image.style.320
+    - image.style.3200
+    - image.style.3840
+    - image.style.480
+    - image.style.640
+    - image.style.960
+id: full
+label: Full
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - '1280'
+        - '1440'
+        - '1600'
+        - '1920'
+        - '2400'
+        - '2560'
+        - '2880'
+        - '320'
+        - '3200'
+        - '3840'
+        - '480'
+        - '640'
+        - '960'
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: '_original image_'

@@ -1,0 +1,8 @@
+uuid: 23e24ff6-b42d-43dd-8194-e1907123548f
+langcode: en
+status: true
+dependencies: {  }
+id: short
+label: 'Datetime (Short)'
+locked: false
+pattern: 'm/d/Y - g:i A T'

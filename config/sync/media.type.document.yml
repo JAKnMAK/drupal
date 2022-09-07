@@ -1,0 +1,15 @@
+uuid: fdf44bad-5fb9-438b-9ff9-286a032c9e66
+langcode: en
+status: true
+dependencies: {  }
+id: document
+label: Document
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_file
+field_map:
+  mimetype: field_mime_type
+  filesize: field_file_size

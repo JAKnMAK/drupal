@@ -1,0 +1,8 @@
+uuid: f81c4598-46d8-4ed1-9543-6c4b605dd552
+langcode: en
+status: true
+dependencies: {  }
+id: long
+label: 'Datetime (long)'
+locked: false
+pattern: 'l, F j, Y - g:i A T'

@@ -1,0 +1,20 @@
+uuid: 8b387680-97ad-46a1-acf9-059ca86dad74
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - media_library
+_core:
+  default_config_hash: 7qJqToD1OQLAyeswpmg7M0LRxQlw1URQkJDWUJCnmR8
+name: media_library
+label: 'Media library'
+effects:
+  bf034fbc-ddeb-4c71-b3c2-7fed8e1e7ecb:
+    uuid: bf034fbc-ddeb-4c71-b3c2-7fed8e1e7ecb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 160
+      height: 160
+      anchor: center-center

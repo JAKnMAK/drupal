@@ -1,0 +1,17 @@
+uuid: dfb21710-65f8-48ad-82dc-1009524f72e4
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_file_image
+field_map:
+  mimetype: field_mime_type
+  filesize: field_file_size
+  width: field_width
+  height: field_height

@@ -1,0 +1,15 @@
+uuid: e72a33ab-c6a2-4bda-b3e9-59b2e997ba08
+langcode: en
+status: true
+dependencies: {  }
+name: '1600'
+label: '1600'
+effects:
+  82ba97c8-be17-40e3-b012-76f01cc8d13b:
+    uuid: 82ba97c8-be17-40e3-b012-76f01cc8d13b
+    id: image_scale
+    weight: 1
+    data:
+      width: 1600
+      height: null
+      upscale: false

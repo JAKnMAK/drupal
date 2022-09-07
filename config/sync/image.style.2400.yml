@@ -1,0 +1,15 @@
+uuid: 37c6c6be-87dc-4a95-9e92-a3bbcd6413c9
+langcode: en
+status: true
+dependencies: {  }
+name: '2400'
+label: '2400'
+effects:
+  33f34709-af66-45e0-82d2-6dc06da8f956:
+    uuid: 33f34709-af66-45e0-82d2-6dc06da8f956
+    id: image_scale
+    weight: 1
+    data:
+      width: 2400
+      height: null
+      upscale: false

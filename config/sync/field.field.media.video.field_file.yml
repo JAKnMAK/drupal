@@ -1,0 +1,27 @@
+uuid: 9915d978-3cfb-476e-ba09-c8dda13c2a76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_file
+    - media.type.video
+  module:
+    - file
+id: media.video.field_file
+field_name: field_file
+entity_type: media
+bundle: video
+label: File
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: mp4
+  max_filesize: ''
+  description_field: false
+field_type: file

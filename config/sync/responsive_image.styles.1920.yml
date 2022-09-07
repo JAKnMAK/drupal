@@ -1,0 +1,23 @@
+uuid: a1aa11da-999b-4495-8e71-975282780525
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.1920
+    - image.style.2880
+    - image.style.3840
+id: '1920'
+label: '1920'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - '1920'
+        - '2880'
+        - '3840'
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: '1920'

@@ -1,0 +1,23 @@
+uuid: c57c2ccc-e2f5-4fc0-91f5-521df5bb032c
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.1280
+    - image.style.640
+    - image.style.960
+id: '640'
+label: '640'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - '1280'
+        - '640'
+        - '960'
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: '640'

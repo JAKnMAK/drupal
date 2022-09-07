@@ -1,0 +1,8 @@
+uuid: 95cecb0c-cee6-4088-a5e2-f7b5ec27560f
+langcode: en
+status: true
+dependencies: {  }
+id: medium
+label: 'Datetime (medium)'
+locked: false
+pattern: 'F d, Y - g:i A T'

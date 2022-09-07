@@ -1,0 +1,54 @@
+uuid: 8327211e-d621-4026-a754-0ba111e5f9ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor
+format: basic_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Strike
+            - Underline
+            - Subscript
+            - Superscript
+            - Format
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Components
+          items:
+            - BulletedList
+            - NumberedList
+            - DrupalMediaLibrary
+            - Table
+            - Blockquote
+            - SpecialChar
+        -
+          name: Tools
+          items:
+            - RemoveFormat
+            - ShowBlocks
+            - Maximize
+            - Source
+  plugins: {  }
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

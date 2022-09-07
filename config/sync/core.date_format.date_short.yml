@@ -1,0 +1,8 @@
+uuid: be36241a-4099-4612-a197-a3dbdf40001b
+langcode: en
+status: true
+dependencies: {  }
+id: date_short
+label: 'Date (short)'
+locked: false
+pattern: m/d/Y

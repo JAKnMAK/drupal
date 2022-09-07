@@ -1,0 +1,15 @@
+uuid: 252bb751-b464-46ab-b8d9-798a94ece25c
+langcode: en
+status: true
+dependencies: {  }
+name: '1440'
+label: '1440'
+effects:
+  48a73ffc-e8aa-48ff-ae9f-cdfadbe2d756:
+    uuid: 48a73ffc-e8aa-48ff-ae9f-cdfadbe2d756
+    id: image_scale
+    weight: 1
+    data:
+      width: 1440
+      height: null
+      upscale: false

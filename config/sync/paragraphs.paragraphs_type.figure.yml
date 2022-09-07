@@ -1,0 +1,10 @@
+uuid: 84d6ffdf-7ce4-4168-be61-01e7e48e5c4b
+langcode: en
+status: true
+dependencies: {  }
+id: figure
+label: Figure
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

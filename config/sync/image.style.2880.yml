@@ -1,0 +1,15 @@
+uuid: 1378f92c-ad43-4971-9d9c-2599fe1da2f9
+langcode: en
+status: true
+dependencies: {  }
+name: '2880'
+label: '2880'
+effects:
+  ff042dd9-6dc0-47f6-a91a-97434e04a804:
+    uuid: ff042dd9-6dc0-47f6-a91a-97434e04a804
+    id: image_scale
+    weight: 1
+    data:
+      width: 2880
+      height: null
+      upscale: false

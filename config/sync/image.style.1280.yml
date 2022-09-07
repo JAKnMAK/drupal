@@ -1,0 +1,15 @@
+uuid: 80c32117-54aa-4ffd-ab88-d95e47ef80a7
+langcode: en
+status: true
+dependencies: {  }
+name: '1280'
+label: '1280'
+effects:
+  f6d285d9-38a9-4982-9aba-a093b4de3ddf:
+    uuid: f6d285d9-38a9-4982-9aba-a093b4de3ddf
+    id: image_scale
+    weight: 1
+    data:
+      width: 1280
+      height: null
+      upscale: false

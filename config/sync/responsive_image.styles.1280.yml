@@ -1,0 +1,23 @@
+uuid: 4a5395a9-5a24-4187-8958-d3e3e3f4e1c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.1280
+    - image.style.1920
+    - image.style.2560
+id: '1280'
+label: '1280'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - '1280'
+        - '1920'
+        - '2560'
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: '1280'

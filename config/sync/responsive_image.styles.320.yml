@@ -1,0 +1,23 @@
+uuid: 9f8fe615-fc28-4884-81f4-ef09f6c90a1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.320
+    - image.style.480
+    - image.style.640
+id: '320'
+label: '320'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - '320'
+        - '480'
+        - '640'
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: '320'

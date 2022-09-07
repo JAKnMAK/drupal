@@ -1,0 +1,31 @@
+uuid: 929a3dcb-5ec5-4076-90c1-0a1bc6a629a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.document.field_file
+    - field.field.media.document.field_file_size
+    - field.field.media.document.field_mime_type
+    - media.type.document
+  module:
+    - file
+id: media.document.default
+targetEntityType: media
+bundle: document
+mode: default
+content:
+  field_file:
+    type: file_default
+    label: visually_hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_file_size: true
+  field_mime_type: true
+  name: true
+  thumbnail: true
+  uid: true
