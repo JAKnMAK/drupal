@@ -1,0 +1,10 @@
+uuid: 12b76187-9b25-4f13-baf1-80074f3a4b24
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.0640
+label: '0640'
+targetEntityType: media
+cache: true

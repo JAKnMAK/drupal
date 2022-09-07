@@ -2,6 +2,13 @@ uuid: d7ec2700-17c6-43cb-8c59-e3fd0a7cafc5
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.0320
+    - core.entity_view_mode.media.0640
+    - core.entity_view_mode.media.0960
+    - core.entity_view_mode.media.1280
+    - core.entity_view_mode.media.1600
+    - core.entity_view_mode.media.1920
   module:
     - media
 name: 'Basic HTML'
@@ -48,5 +55,16 @@ filters:
     weight: 100
     settings:
       default_view_mode: default
-      allowed_view_modes: {  }
-      allowed_media_types: {  }
+      allowed_view_modes:
+        default: default
+        '0320': '0320'
+        '0640': '0640'
+        '0960': '0960'
+        1280: '1280'
+        1600: '1600'
+        1920: '1920'
+      allowed_media_types:
+        audio: audio
+        document: document
+        image: image
+        video: video

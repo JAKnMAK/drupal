@@ -1,8 +1,12 @@
-uuid: bd020c4e-a4bd-4392-8f6c-f4358e9fc92d
+uuid: bf55939c-2ef7-4882-aa79-89d202ff642e
 langcode: en
 status: true
 dependencies:
   config:
+    - image.style.0320
+    - image.style.0480
+    - image.style.0640
+    - image.style.0960
     - image.style.1280
     - image.style.1440
     - image.style.1600
@@ -10,12 +14,8 @@ dependencies:
     - image.style.2400
     - image.style.2560
     - image.style.2880
-    - image.style.320
     - image.style.3200
     - image.style.3840
-    - image.style.480
-    - image.style.640
-    - image.style.960
 id: full
 label: Full
 image_style_mappings:
@@ -24,6 +24,10 @@ image_style_mappings:
     image_mapping:
       sizes: 100vw
       sizes_image_styles:
+        - '0320'
+        - '0480'
+        - '0640'
+        - '0960'
         - '1280'
         - '1440'
         - '1600'
@@ -31,12 +35,8 @@ image_style_mappings:
         - '2400'
         - '2560'
         - '2880'
-        - '320'
         - '3200'
         - '3840'
-        - '480'
-        - '640'
-        - '960'
     breakpoint_id: responsive_image.viewport_sizing
     multiplier: 1x
 breakpoint_group: responsive_image

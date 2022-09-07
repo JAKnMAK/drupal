@@ -1,0 +1,10 @@
+uuid: fdf696c2-31ae-4b6f-ad92-8fe0c6c17c8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.1280
+label: '1280'
+targetEntityType: media
+cache: true

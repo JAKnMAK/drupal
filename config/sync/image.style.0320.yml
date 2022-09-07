@@ -1,0 +1,15 @@
+uuid: 7a06781e-07e0-4780-99ed-43e7bbd18ece
+langcode: en
+status: true
+dependencies: {  }
+name: '0320'
+label: '0320'
+effects:
+  1d09a095-3a4a-46fe-b67f-e2c83f6e10b4:
+    uuid: 1d09a095-3a4a-46fe-b67f-e2c83f6e10b4
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: null
+      upscale: false

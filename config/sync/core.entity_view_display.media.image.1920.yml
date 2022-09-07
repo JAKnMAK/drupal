@@ -1,27 +1,33 @@
-uuid: 6b0929f4-a7d2-47a4-b353-b41a7f92f2f5
+uuid: 6706eb4f-1aa9-4de2-9559-1b3110436770
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.1920
     - field.field.media.image.field_file_image
     - field.field.media.image.field_file_size
     - field.field.media.image.field_height
     - field.field.media.image.field_mime_type
     - field.field.media.image.field_width
     - media.type.image
-    - responsive_image.styles.full
+    - responsive_image.styles.1920
   module:
+    - layout_builder
     - responsive_image
-id: media.image.default
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: media.image.1920
 targetEntityType: media
 bundle: image
-mode: default
+mode: '1920'
 content:
   field_file_image:
     type: responsive_image
-    label: hidden
+    label: visually_hidden
     settings:
-      responsive_image_style: full
+      responsive_image_style: '1920'
       image_link: ''
     third_party_settings: {  }
     weight: 0

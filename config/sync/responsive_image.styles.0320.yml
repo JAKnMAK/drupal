@@ -1,23 +1,23 @@
-uuid: 288d53d1-a5ef-4127-a92b-5ae94e468673
+uuid: f1562cd8-7566-459a-ba3d-a60868f42630
 langcode: en
 status: true
 dependencies:
   config:
-    - image.style.1440
-    - image.style.1920
-    - image.style.960
-id: '960'
-label: '960'
+    - image.style.0320
+    - image.style.0480
+    - image.style.0640
+id: '0320'
+label: '0320'
 image_style_mappings:
   -
     image_mapping_type: sizes
     image_mapping:
       sizes: 100vw
       sizes_image_styles:
-        - '1440'
-        - '1920'
-        - '960'
+        - '0320'
+        - '0480'
+        - '0640'
     breakpoint_id: responsive_image.viewport_sizing
     multiplier: 1x
 breakpoint_group: responsive_image
-fallback_image_style: '960'
+fallback_image_style: '0320'

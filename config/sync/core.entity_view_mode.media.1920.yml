@@ -1,0 +1,10 @@
+uuid: fa93d33a-f784-4204-af91-6f752d15a1a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.1920
+label: '1920'
+targetEntityType: media
+cache: true

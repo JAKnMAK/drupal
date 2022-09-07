@@ -1,0 +1,15 @@
+uuid: a938d541-1159-413a-8976-2010b2b912a6
+langcode: en
+status: true
+dependencies: {  }
+name: '0960'
+label: '0960'
+effects:
+  6dab50fc-bce4-41dd-b5fa-63e5f1edef61:
+    uuid: 6dab50fc-bce4-41dd-b5fa-63e5f1edef61
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: null
+      upscale: false

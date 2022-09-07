@@ -1,0 +1,15 @@
+uuid: 0b9622c4-98db-4e77-a4df-5d8d6cb1fbbc
+langcode: en
+status: true
+dependencies: {  }
+name: '0480'
+label: '0480'
+effects:
+  c5bef912-3b96-4e2b-9a23-679719b4f328:
+    uuid: c5bef912-3b96-4e2b-9a23-679719b4f328
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: null
+      upscale: false

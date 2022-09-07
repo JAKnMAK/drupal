@@ -1,0 +1,15 @@
+uuid: 208657fb-29f9-4676-a984-7b284256904c
+langcode: en
+status: true
+dependencies: {  }
+name: '0640'
+label: '0640'
+effects:
+  535de2b6-d09d-4278-90ce-6d3327e22be8:
+    uuid: 535de2b6-d09d-4278-90ce-6d3327e22be8
+    id: image_scale
+    weight: 1
+    data:
+      width: 640
+      height: null
+      upscale: false
