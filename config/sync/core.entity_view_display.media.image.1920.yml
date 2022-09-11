@@ -12,12 +12,7 @@ dependencies:
     - media.type.image
     - responsive_image.styles.1920
   module:
-    - layout_builder
     - responsive_image
-third_party_settings:
-  layout_builder:
-    enabled: false
-    allow_custom: false
 id: media.image.1920
 targetEntityType: media
 bundle: image

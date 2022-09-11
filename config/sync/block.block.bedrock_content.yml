@@ -1,22 +1,20 @@
-uuid: 10c7cb05-08ef-4115-97a8-b7092668be00
+uuid: 575e71a9-20d0-433f-8f0b-ae624126f0ea
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - gin
-_core:
-  default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
-id: gin_content
-theme: gin
+    - bedrock
+id: bedrock_content
+theme: bedrock
 region: content
 weight: 0
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: Content
   label_display: '0'
   provider: system
 visibility: {  }

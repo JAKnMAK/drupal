@@ -1,0 +1,25 @@
+uuid: 9f44fa27-f9f1-48ed-93eb-a0aec238e5b8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ba316896-f98a-4785-8700-ccde68042670'
+  module:
+    - block_content
+  theme:
+    - bedrock
+id: footertop
+theme: bedrock
+region: information_two
+weight: -5
+provider: null
+plugin: 'block_content:ba316896-f98a-4785-8700-ccde68042670'
+settings:
+  id: 'block_content:ba316896-f98a-4785-8700-ccde68042670'
+  label: 'Footer top'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

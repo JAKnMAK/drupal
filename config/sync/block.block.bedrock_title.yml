@@ -1,0 +1,18 @@
+uuid: d966d868-1525-483e-aa86-4bdc3c1df9d3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bedrock
+id: bedrock_title
+theme: bedrock
+region: title
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Title
+  label_display: '0'
+  provider: core
+visibility: {  }

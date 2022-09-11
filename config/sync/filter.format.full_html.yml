@@ -39,7 +39,7 @@ filters:
     status: false
     weight: -10
     settings:
-      allowed_html: '<a href hreflang> <b> <blockquote cite> <br> <caption> <cite> <code> <dd> <div> <dl> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <dt> <em> <figcaption> <figure> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <i> <img src alt height width data-entity-type data-entity-uuid data-align data-caption> <li> <ol start type> <p> <pre> <s> <span> <strong> <sub> <sup> <table> <tbody> <td> <tfoot> <th> <thead> <tr> <u> <ul type>'
+      allowed_html: '<a href hreflang> <abbr cite> <address> <audio> <b> <blockquote cite> <br> <caption> <cite> <code> <col> <colgroup> <dd> <details> <div class=""> <dl> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <dt> <em> <figcaption> <figure> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <i> <iframe> <img src alt height width data-entity-type data-entity-uuid data-align data-caption> <kbd> <li> <mark> <ol start type> <p> <pre> <q> <s> <source> <span> <strong> <sub> <summary> <sup> <svg> <table> <tbody> <td> <tfoot> <th> <thead> <time> <tr> <track> <u> <ul type> <video> <h1>'
       filter_html_help: false
       filter_html_nofollow: false
   media_embed:

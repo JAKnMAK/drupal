@@ -1,0 +1,25 @@
+uuid: a88238b4-4e90-4792-a27d-1ad20163f0c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bedrock
+id: bedrock_navigation
+theme: bedrock
+region: navigation_one
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: Navigation
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

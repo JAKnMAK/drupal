@@ -1,0 +1,23 @@
+uuid: 3cf70f5b-4c6d-47cd-99c2-dcaab42511ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bedrock
+id: bedrock_brand
+theme: bedrock
+region: brand
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: Brand
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

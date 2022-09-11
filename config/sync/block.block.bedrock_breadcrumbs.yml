@@ -1,16 +1,14 @@
-uuid: 81828387-01fa-406c-b78f-b41851c5e47b
+uuid: 6d7b9988-242f-40f2-b02f-de9436808dba
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - gin
-_core:
-  default_config_hash: y9X3xgCsO59pQyzNLzY1D3SDJJxCHILLWkpPnmuTJ2E
-id: gin_breadcrumbs
-theme: gin
-region: breadcrumb
+    - bedrock
+id: bedrock_breadcrumbs
+theme: bedrock
+region: content
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

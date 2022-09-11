@@ -12,12 +12,7 @@ dependencies:
     - media.type.image
     - responsive_image.styles.0320
   module:
-    - layout_builder
     - responsive_image
-third_party_settings:
-  layout_builder:
-    enabled: false
-    allow_custom: false
 id: media.image.0320
 targetEntityType: media
 bundle: image
